@@ -67,13 +67,29 @@ margin-top: -5%;
 }
 .button{text-align: center;}
 #product{
-width: 120px;
+width: 150px;
 height: 40px;
 border: none;
 border-radius: 10px;
 background: #953CBA;
+color: #FFF;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 136.364% */
+
 }
-#panah{
-    width: 10px;
-height: 10px;
+#selengkapnya{
+    color: #000;
+font-family: Montserrat;
+font-size: 22px;
+font-style: normal;
+border: none;
+font-weight: 500;
+line-height: 30px; /* 100% */
+background-color: white;
+text-align: center;
+margin-left: 2%;
+margin-top: -2px;
 }
