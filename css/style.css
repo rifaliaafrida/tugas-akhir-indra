@@ -19,14 +19,10 @@ a{
     text-decoration: none;
 }
 .logo{
-    display: inline-block;
-    color: #4E2C70;
-text-align: center;
-font-family: Lalezar;
-font-size:5vh;
-font-style: normal;
-font-weight: 400;
-line-height: 27px; /* 77.143% */
+    width: 100px;
+height:100px;
+margin-top: -1%;
+
 }
 .left{display: block;
 float: right;
@@ -47,24 +43,24 @@ margin-right:-20% ;}
     padding: 5% 0;}
 #backround1{
     display: flex;
-    width: 450px;
-    height: 600x;
+    width: 30vw;
+    height: 60vw;
 
 }
 .backround{
     display: flex;
     margin-top: -10%;
     margin-bottom: 5%;
-    height: 52vw;
 }
 #backround2{
-    width: 500px;
-    height: 6000x;
+    width: 37vw;
+    height: 60vw;
+
 
 }
 #backround3{
-    width: 400px;
-    height: 600x;
+    width: 37vw;
+    height: 60vw;
 
 }
 #Title{
@@ -72,7 +68,7 @@ margin-right:-20% ;}
 text-align: center;
 font-family: 'Noto Sans Kannada', sans-serif;
 font-size: 7vw;
-margin-top: -39%;
+margin-top: -42%;
 font-style: normal;
 font-weight: 700;
 }
@@ -213,8 +209,12 @@ margin-top: -2px;
     }
     #Title{
         font-size: 13vw;
+        margin-top: -90%;
        }
-    .mobile{
+    .logo{
+        margin-top: -5%;
+    }
+           .mobile{
         display: block;
     }
     .hamburger{
@@ -223,6 +223,18 @@ margin-top: -2px;
         margin: 10%;
         position: relative;
     }
+    #backround1{
+        height: 60vh;
+    }
+   
+    #backround2{
+        height: 60vh;
+    }
+   
+    #backround3{
+        height: 60vh;
+    }
+   
 
 
 
