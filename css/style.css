@@ -41,6 +41,7 @@ margin-right:-20% ;}
 }
 .Home{
     padding: 5% 0;}
+/*
 #backround1{
     display: flex;
     width: 30vw;
@@ -63,12 +64,13 @@ margin-right:-20% ;}
     height: 60vw;
 
 }
+*/
 #Title{
     color: #000;
 text-align: center;
 font-family: 'Noto Sans Kannada', sans-serif;
 font-size: 7vw;
-margin-top: -42%;
+margin-top: 10%;
 font-style: normal;
 font-weight: 700;
 }
@@ -95,7 +97,7 @@ color: #FFF;
 font-family: 'Roboto';
 font-size: 20px;
 font-style: normal;
-font-weight: 600;
+font-weight: 400;
 line-height: 30px; /* 136.364% */
 
 }
@@ -188,6 +190,21 @@ margin-top: -2px;
     width: 10cm;
     height: 10cm;
 }
+.product-button{
+    margin: 5% 0;
+    text-align: center ;
+    width:100%
+}
+.Allproduct{
+    border: none;
+    width: 150px;
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+    margin-left: 2%;
+    margin-top: 2%;
+
+}
 
 @media only screen and ( max-width:500px)
 {    
@@ -209,7 +226,7 @@ margin-top: -2px;
     }
     #Title{
         font-size: 13vw;
-        margin-top: -90%;
+        margin-top: 5%;
        }
     .logo{
         margin-top: -5%;
