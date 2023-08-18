@@ -114,7 +114,7 @@ margin-right:-20% ;}
     grid-template-areas: 'left,right';
 }
 .left-page{
-    margin: 20% 5%;
+    margin: 25% 5%;
 }
 .title{
     color: #0D2131;
@@ -125,8 +125,8 @@ font-style: normal;
 font-weight: 600;
 }
 .image-home{
-    width: 22vw;
-    height: 42vw;
+    width: 25vw;
+    height: 50vw;
     margin-top: 40%;
 }
 @media only screen and ( max-width:576px)
@@ -166,7 +166,7 @@ font-weight: 600;
         width: max-content;
     }
     .image-home{
-        margin-left: 20%;
+        margin-left: 25%;
     }
 
 }
