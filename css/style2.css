@@ -108,6 +108,27 @@ margin-right:-20% ;}
     font-size: 18px;
     display: block;
 }
+.frontpage{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-areas: 'left,right';
+}
+.left-page{
+    margin: 20% 5%;
+}
+.title{
+    color: #0D2131;
+text-align: center;
+font-family: Roboto;
+font-size: 6vw;
+font-style: normal;
+font-weight: 600;
+}
+.image-home{
+    width: 22vw;
+    height: 42vw;
+    margin-top: 40%;
+}
 @media only screen and ( max-width:576px)
 {  
     
@@ -135,4 +156,17 @@ margin-right:-20% ;}
         width:80px;
         height: 80px;
     }
+    .frontpage{
+        display: grid;
+        grid-template-columns: 5fr 1fr;
+        grid-template-areas: 'left,right';
+        padding-top: 20%;
+    }
+    .title{
+        width: max-content;
+    }
+    .image-home{
+        margin-left: 20%;
+    }
+
 }
