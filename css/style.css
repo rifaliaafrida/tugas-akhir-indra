@@ -257,6 +257,9 @@ padding: 0;}
         width:80px;
         height: 80px;
     }
+    #slogan{
+        font-size: 5vw;
+    }
     .button{
         margin-top: -2%;
     }
