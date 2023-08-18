@@ -75,7 +75,7 @@ font-family: 'Noto Sans Kannada', sans-serif;
 font-size: 7vw;
 margin-top: -45%;
 font-style: normal;
-font-weight: 900;
+font-weight: 700;
 }
 #slogan{
     color: #fff;
@@ -226,8 +226,9 @@ margin-top: -2px;
     flex-shrink: 0;
 padding: 0;}
 
-@media only screen and ( max-width:550px)
-{    
+@media only screen and ( max-width:576px)
+{  
+    
     .left{
         display: none;
     }
@@ -235,29 +236,25 @@ padding: 0;}
         padding: 20vh 0 0 0;
     }
     .navbar{
-        height: 9vh;
+        height: 12vh;
     }
-    
-    #slogan{
-        font-size: 6vw;
-        margin-top: -10%;
-
+    .mobile{
+        display: block;
     }
-    #Title{
-        font-size: 8vw;
-        color: #fff;
-       }
+    .hamburger{
+        display: flex;
+        float: right;
+        margin: 10%;
+        position: relative;
+    }
     .bck{
-        margin-top: -25%;
+        margin-top: -20%;
     }
     .logo{
         margin-top: -1%;
         margin-left: -7%;
         width:80px;
         height: 80px;
-    }
-           .mobile{
-        display: block;
     }
     .button{
         margin-top: -2%;
@@ -269,12 +266,6 @@ padding: 0;}
     }
     #selengkapnya{
         font-size: 17px;
-    }
-    .hamburger{
-        display: flex;
-        float: right;
-        margin: 10%;
-        position: relative;
     }
     .product-button{
         text-align: left;
@@ -294,8 +285,6 @@ padding: 0;}
         width: 30vw;
         flex-shrink: 0;
     padding: 0;}
-    
-
 
 
 }
