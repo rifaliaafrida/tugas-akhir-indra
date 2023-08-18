@@ -118,8 +118,7 @@ margin-right:-20% ;}
         padding: 20vh 0 0 0;
     }
     .navbar{
-        height: 12vh;
-    }
+display: none;    }
     .mobile{
         display: block;
     }
@@ -128,6 +127,5 @@ margin-right:-20% ;}
         float: right;
         margin: 10%;
         position: relative;
-        display: none;
     }
 }
