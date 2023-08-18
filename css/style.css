@@ -31,7 +31,7 @@ padding:2% ;
 width: 60vw;
 margin-right:-20% ;}
 .left li{
-    color: #4E2C70;
+    color: #000;
     text-align: center;
     font-family: 'Roboto';
     font-size: 20px;
@@ -68,11 +68,10 @@ margin-right:-20% ;}
     height: 60vw;
 
 }
-*/
 #Title{
     color: #fff;
-text-align: center;
-font-family: 'Noto Sans Kannada', sans-serif;
+    text-align: center;
+    font-family: 'Noto Sans Kannada', sans-serif;
 font-size: 7vw;
 margin-top: -45%;
 font-style: normal;
@@ -80,13 +79,14 @@ font-weight: 700;
 }
 #slogan{
     color: #fff;
-text-align: center;
-font-family: 'Roboto';
-font-size: 3vw;
-font-style: normal;
-font-weight: 500;
-margin-top: -6%;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 3vw;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: -6%;
 }
+*/
 .button{text-align: center;}
 #product{
 width: 150px;
@@ -260,7 +260,7 @@ padding: 0;}
         font-size: 5vw;
     }
     .button{
-        margin-top: -2%;
+        margin-top: -1%;
     }
     #product{
         width: 110px;
@@ -272,7 +272,7 @@ padding: 0;}
     }
     .product-button{
         text-align: left;
-        margin-left: 4%;
+        margin-left: -1%;
     }
     .Allproduct{
         width: 85px;
