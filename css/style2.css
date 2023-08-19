@@ -112,25 +112,29 @@ margin-right:-20% ;}
     display: grid;
     grid-template-columns:5fr 1fr;
     grid-template-areas: 'left,right';
+    height: min-content;
+    border-bottom:  rgba(0, 0, 0, 0.15) 3px;
+    box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.15);
+
+
 }
 .left-page{
-    margin: 15% 0;
+    margin: 15% 7%;
     text-align: center;
-    padding: 0 7%;
-
+    
 }
 .title{
     color: #0D2131;
-text-align: center;
-font-family: 'Roboto';
-font-size: 6vw;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 6vw;
 font-style: normal;
 font-weight: 600;
 padding-left: 5%;
 }
 .image-home{
     width: 20vw;
-    height: 40vw;
+    height: 50vw;
     margin-top: 40%;
 }
 .child{
@@ -147,7 +151,6 @@ margin-left: 15%;
 .button-one{
     text-align: center;
     margin-top: 3%;
-    margin-left: 10%;
 }
 
 .selengkapnya{
@@ -160,8 +163,9 @@ font-size: 2vh;
 font-style: normal;
 font-weight: 400;
 line-height: 27px; /* 112.5% */
-margin: 2% 3% ;
 width: 22vh;
+margin-left: 3%;
+margin-top: 2%;
 
 
 }
@@ -193,10 +197,7 @@ width: 22vh;
         height: 80px;
     }
     .frontpage{
-        display: grid;
-        grid-template-columns: 5fr 1fr;
-        grid-template-areas: 'left,right';
-        padding-top: 20%;
+       width: 100%;
     }
     .title{
         width: max-content;
@@ -204,12 +205,11 @@ width: 22vh;
     .button-one{
         text-align: center;
         margin-top: 3%;
-        margin-left: 17%;
+        margin-left: 10%;
     }
     .image-home{
-        margin-left: 25%;
         width: 25vw;
-        height: 50vw;
+        height: 60vw;
     }
 
 }
