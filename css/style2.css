@@ -114,7 +114,10 @@ margin-right:-20% ;}
     grid-template-areas: 'left,right';
 }
 .left-page{
-    margin: 15% 5%;
+    margin: 15% 0;
+    text-align: center;
+    padding: 0 7%;
+
 }
 .title{
     color: #0D2131;
@@ -123,6 +126,7 @@ font-family: 'Roboto';
 font-size: 6vw;
 font-style: normal;
 font-weight: 600;
+padding-left: 5%;
 }
 .image-home{
     width: 20vw;
@@ -135,13 +139,19 @@ text-align: center;
 font-family: 'Roboto';
 font-size: 3vw;
 font-style: normal;
+width: max-content;
 font-weight: 600;
-margin: -7% 0 0 5%;
+margin-top: -7%;
+margin-left: 15%;
+background-color: lightblue;
 }
 .button-one{
     text-align: center;
-    margin: 3% 0 0 0;
+    margin-top: 3%;
+    margin-left: 5%;
+    padding-left: 10%;
 }
+
 .selengkapnya{
     border: none;
     background-color: #0D2131;
@@ -153,7 +163,8 @@ font-style: normal;
 font-weight: 400;
 line-height: 27px; /* 112.5% */
 margin: 2% 5% ;
-width: 17vh;
+width: 25vh;
+
 
 }
 @media only screen and ( max-width:576px)
