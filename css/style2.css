@@ -205,9 +205,10 @@ margin-top: 2%;
     .button-one{
         text-align: center;
         margin-top: 3%;
-        margin-left: 10%;
+        margin-left: 3%;
     }
     .image-home{
+        margin-left: -10%;
         width: 25vw;
         height: 60vw;
     }
