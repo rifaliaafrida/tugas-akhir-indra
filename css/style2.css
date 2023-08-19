@@ -110,7 +110,7 @@ margin-right:-20% ;}
 }
 .frontpage{
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns:5fr 1fr;
     grid-template-areas: 'left,right';
 }
 .left-page{
@@ -125,7 +125,7 @@ font-style: normal;
 font-weight: 600;
 }
 .image-home{
-    width: 22vw;
+    width: 20vw;
     height: 40vw;
     margin-top: 40%;
 }
@@ -148,12 +148,12 @@ margin: -7% 0 0 5%;
     color: #FFF;
 text-align: center;
 font-family: 'Roboto';
-font-size: 17px;
+font-size: 2vh;
 font-style: normal;
 font-weight: 400;
 line-height: 27px; /* 112.5% */
-margin: 2% 3%;
-width: 20vh;
+margin: 2% 5% ;
+width: 17vh;
 
 }
 @media only screen and ( max-width:576px)
@@ -194,6 +194,8 @@ width: 20vh;
     }
     .image-home{
         margin-left: 25%;
+        width: 25vw;
+        height: 50vw;
     }
 
 }
