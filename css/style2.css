@@ -110,24 +110,51 @@ margin-right:-20% ;}
 }
 .frontpage{
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 3fr 1fr;
     grid-template-areas: 'left,right';
 }
 .left-page{
-    margin: 25% 5%;
+    margin: 15% 5%;
 }
 .title{
     color: #0D2131;
 text-align: center;
-font-family: Roboto;
+font-family: 'Roboto';
 font-size: 6vw;
 font-style: normal;
 font-weight: 600;
 }
 .image-home{
-    width: 25vw;
-    height: 50vw;
+    width: 22vw;
+    height: 40vw;
     margin-top: 40%;
+}
+.child{
+    color: #000;
+text-align: center;
+font-family: 'Roboto';
+font-size: 3vw;
+font-style: normal;
+font-weight: 600;
+margin: -7% 0 0 5%;
+}
+.button-one{
+    text-align: center;
+    margin: 3% 0 0 0;
+}
+.selengkapnya{
+    border: none;
+    background-color: #0D2131;
+    color: #FFF;
+text-align: center;
+font-family: 'Roboto';
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px; /* 112.5% */
+margin: 2% 3%;
+width: 20vh;
+
 }
 @media only screen and ( max-width:576px)
 {  
