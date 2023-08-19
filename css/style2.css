@@ -147,8 +147,7 @@ margin-left: 15%;
 .button-one{
     text-align: center;
     margin-top: 3%;
-    margin-left: 5%;
-    padding-left: 10%;
+    margin-left: 10%;
 }
 
 .selengkapnya{
@@ -161,8 +160,8 @@ font-size: 2vh;
 font-style: normal;
 font-weight: 400;
 line-height: 27px; /* 112.5% */
-margin: 2% 5% ;
-width: 25vh;
+margin: 2% 3% ;
+width: 22vh;
 
 
 }
@@ -201,6 +200,11 @@ width: 25vh;
     }
     .title{
         width: max-content;
+    }
+    .button-one{
+        text-align: center;
+        margin-top: 3%;
+        margin-left: 17%;
     }
     .image-home{
         margin-left: 25%;
