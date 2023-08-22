@@ -41,7 +41,7 @@ margin-right:-20% ;}
     padding: 0 2%;
 }
 .Home{
-    padding: 5% 0;}
+    padding: 5% 0 0 0;}
 .bck{
     width: 99vw;
 }
@@ -177,6 +177,41 @@ margin-top: -2px;
 .syarat{
     margin-top: -3%;
 }
+.AllItems{
+    margin: 5% 0;
+    border: none;
+    width: 100%;
+    height: 1.2cm;
+    background-color: #0D2131;
+    text-align: center;
+}
+#button-produk{
+    color: #FFF;
+}
+
+.Lornashor{
+    border: none;
+    width: 100%;
+    height: 1.2cm;
+    background-color: lightgrey;
+    margin: 0;
+}
+#button-Lornaa{
+        color: #000;
+    
+}
+.Spritbox{
+    margin: 5% 0;
+    border: none;
+    width: 100%;
+    height: 1.2cm;
+    background-color: #0D2131;
+    text-align: center;
+
+}
+#button-sprit{
+    color: #FFF;
+}
 
 .hamburger {
     display: flex;
@@ -245,46 +280,45 @@ margin-top: -2px;
     display: block;
 }
 /*End*/
-.product{
-    width: 10cm;
-    height: 10cm;
+
+button {
+   margin: 2% 0 0 1%;
+   border: none;
+   width: 25%;
+background-color: #000; 
+color: #FFF;
+font-size: 2.3vh;
 }
-.product-button{
-    text-align: center ;
-    width:100%;
+.buttonProduct{
+    text-align: center;
 }
-.Allproduct{
-    border: none;
-    width: 22vw;
-    height: 4vh;
-    background-color: #333;
-    color: #fff;
-    margin-left: 2%;
-    margin-top: 2%;
-    font-size: 12px;
+
+#productContainer{
+    display: flex;
+    margin: 5% 0;
+}
+.product {
+    display: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 5%;
+}
+
+.all {
+    display: block;
 
 }
-.card1{
-    text-align: left;
-    display: inline-block;
-        width: 20vh;
-        height: 40vh;
-        border: 1px solid #ccc;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        transition: box-shadow 0.3s ease-in-out;
-        overflow: hidden;
-        margin: 5% 0 5% 2%;
-        padding: 0;
-        border: none;
-        background: lightgray 50% / cover no-repeat;
-        padding: 0 2% 0;
 
+#sprit{
+  background-color: lightgray;
+  height: 29.3vh;
+  margin: 0 3%  0 5% ;
+  width: max-content;
 }
-.zoom-hover{width: 200px;
-    height: 40vh;
+.spritimage{
     width: 20vh;
-    flex-shrink: 0;
-padding: 0;}
+    height: 31vh;
+}
 
 @media only screen and ( max-width:576px)
 {  
