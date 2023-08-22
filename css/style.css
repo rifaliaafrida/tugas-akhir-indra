@@ -117,9 +117,65 @@ margin-top: -2px;
 #image1{
     margin:5%;
 }
-
+/*NavbarMobile*/
 .mobile{
     display: none;
+}
+
+.topbackround{
+    width: 9cm;
+    margin-left: -8%;
+    height: 0.8cm;
+    box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.15);
+    border-bottom:  rgba(0, 0, 0, 0.15) 3px;
+
+}
+#MerchCult{
+    font-style: 'Roboto';
+    color: #0D2131;
+    font-weight: 600;
+    margin-left: 6%;
+    font-size: 20px;
+
+}
+.spritbox-backround{
+    width: 7.8cm;
+    margin-left: -7%;
+    margin-top: 2%;
+}
+.menu{
+    display: flex;
+    width: 100%;
+}
+.Homemenu{
+    background-color: #0D2131;
+    width: 3cm;
+    height: 2cm;
+    margin: 5% 0;
+    text-align: center;
+    margin-right: 15%;
+}
+.Homeicon{
+    margin-top: 10%;
+}
+.Beranda{
+    color: #fff;
+    margin-top: -3%;
+}
+.sk{
+    background-color: lightgrey;
+    width: 3cm;
+    height: 2cm;
+    margin: 5% 0;
+    text-align: center;
+}
+.skicon{
+    width: 1cm;
+    margin-top: 8%;
+
+}
+.syarat{
+    margin-top: -3%;
 }
 
 .hamburger {
@@ -188,6 +244,7 @@ margin-top: -2px;
     font-size: 18px;
     display: block;
 }
+/*End*/
 .product{
     width: 10cm;
     height: 10cm;
@@ -198,12 +255,13 @@ margin-top: -2px;
 }
 .Allproduct{
     border: none;
-    width: 150px;
-    height: 40px;
+    width: 22vw;
+    height: 4vh;
     background-color: #333;
     color: #fff;
     margin-left: 2%;
     margin-top: 2%;
+    font-size: 12px;
 
 }
 .card1{
@@ -227,25 +285,6 @@ margin-top: -2px;
     width: 20vh;
     flex-shrink: 0;
 padding: 0;}
-.topbackround{
-    width: 9cm;
-    margin-left: -8%;
-    height: 1.5cm;
-    box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.15);
-    border-bottom:  rgba(0, 0, 0, 0.15) 3px;
-
-}
-.spritbox-backround{
-    width: 7.8cm;
-    margin-left: -7%;
-    margin-top: 2%;
-}
-.Homemenu{
-    background-color: yellow;
-    width: 3cm;
-    height: 2cm;
-    margin: 5% 3%;
-}
 
 @media only screen and ( max-width:576px)
 {  
@@ -294,10 +333,6 @@ padding: 0;}
     .product-button{
         text-align: left;
         margin-left: -1%;
-    }
-    .Allproduct{
-        width: 85px;
-        height: 30px;
     }
     .card1{
         margin: 7%;

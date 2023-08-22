@@ -44,6 +44,62 @@ margin-right:-20% ;}
     display: none;
 }
 
+.topbackround{
+    width: 9cm;
+    margin-left: -8%;
+    height: 0.8cm;
+    box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.15);
+    border-bottom:  rgba(0, 0, 0, 0.15) 3px;
+
+}
+#MerchCult{
+    font-style: 'Roboto';
+    color: #0D2131;
+    font-weight: 600;
+    margin-left: 6%;
+    font-size: 20px;
+
+}
+.spritbox-backround{
+    width: 7.8cm;
+    margin-left: -7%;
+    margin-top: 2%;
+}
+.menu{
+    display: flex;
+    width: 100%;
+}
+.Homemenu{
+    background-color: #0D2131;
+    width: 3cm;
+    height: 2cm;
+    margin: 5% 0;
+    text-align: center;
+    margin-right: 15%;
+}
+.Homeicon{
+    margin-top: 10%;
+}
+.Beranda{
+    color: #fff;
+    margin-top: -3%;
+}
+.sk{
+    background-color: lightgrey;
+    width: 3cm;
+    height: 2cm;
+    margin: 5% 0;
+    text-align: center;
+}
+.skicon{
+    width: 1cm;
+    margin-top: 8%;
+
+}
+.syarat{
+    margin-top: -3%;
+}
+
 .hamburger {
     display: flex;
     flex-direction: column;
@@ -55,6 +111,7 @@ margin-right:-20% ;}
     background-color: transparent;
     outline: none;
     z-index: 2;
+    margin-top: 30%;
 }
 
 .hamburger-line {
@@ -66,6 +123,7 @@ margin-right:-20% ;}
 
 .hamburger.active .hamburger-line:nth-child(1) {
     transform: translateY(7px) rotate(45deg);
+    margin: 0;
 }
 
 .hamburger.active .hamburger-line:nth-child(2) {
@@ -73,7 +131,7 @@ margin-right:-20% ;}
 }
 
 .hamburger.active .hamburger-line:nth-child(3) {
-    transform: translateY(-7px) rotate(-45deg);
+    transform: translateY(-8px) rotate(-45deg);
 }
 
 .mobile-menu {
