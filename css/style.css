@@ -315,6 +315,12 @@ font-size: 2.3vh;
   margin: 0 3%  0 5% ;
   width: max-content;
 }
+#lorna{
+  background-color: lightgray;
+  height: 29.3vh;
+  margin: 0 3%  0 5% ;
+  width: max-content;
+}
 .spritimage{
     width: 20vh;
     height: 31vh;
@@ -378,6 +384,6 @@ font-size: 2.3vh;
         width: 30vw;
         flex-shrink: 0;
     padding: 0;}
-
+    
 
 }
