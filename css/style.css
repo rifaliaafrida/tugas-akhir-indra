@@ -304,7 +304,7 @@ font-size: 2.3vh;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 160px));
-    gap: 25px;
+    gap: 30px;
     row-gap: 70px;
 }
 .product {
@@ -322,7 +322,7 @@ font-size: 2.3vh;
 #sprit{
   background-color: lightgray;
   height: 30vh;
-  width: 20vh;
+  width: 19vh;
   display: block;
 }
 #lorna{
