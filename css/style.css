@@ -195,9 +195,14 @@ margin-top: -2px;
     height: 1.2cm;
     background-color: lightgrey;
     margin: 0;
+    font-size: 19px;
+    color: #000;
+    font-weight: 700;
 }
 #button-Lornaa{
         color: #000;
+        font-size: 19px;
+        font-weight: 700;
     
 }
 .Spritbox{
@@ -211,6 +216,7 @@ margin-top: -2px;
 }
 #button-sprit{
     color: #FFF;
+    font-size: 19px;
 }
 
 .hamburger {
@@ -284,7 +290,7 @@ margin-top: -2px;
 button {
    margin: 2% 0 0 1%;
    border: none;
-   width: 25%;
+   width: 10%;
 background-color: #000; 
 color: #FFF;
 font-size: 2.3vh;
@@ -294,8 +300,12 @@ font-size: 2.3vh;
 }
 
 #productContainer{
-    display: flex;
-    margin: 5% 0;
+    margin: 2% 3%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 160px));
+    gap: 25px;
+    row-gap: 70px;
 }
 .product {
     display: none;
@@ -311,19 +321,38 @@ font-size: 2.3vh;
 
 #sprit{
   background-color: lightgray;
-  height: 29.3vh;
-  margin: 0 3%  0 5% ;
-  width: max-content;
+  height: 30vh;
+  width: 20vh;
+  display: block;
 }
 #lorna{
-  background-color: lightgray;
-  height: 29.3vh;
-  margin: 0 3%  0 5% ;
-  width: max-content;
+    background-color: lightgray;
+    height: 30vh;
+    width: 19vh;
 }
 .spritimage{
     width: 20vh;
-    height: 31vh;
+    height: 31.5vh;
+}
+.spritimage2{
+    width: 20vh;
+    height: 31.6vh;
+
+}
+.spritimage3{
+    width: 22vh;
+    height: 31.6vh;
+
+}
+.spritimage5{
+    width: 17vh;
+    height: 32vh;
+
+}
+.spritimage4{
+    width: 20vh;
+    height: 31.6vh;
+
 }
 
 @media only screen and ( max-width:576px)
