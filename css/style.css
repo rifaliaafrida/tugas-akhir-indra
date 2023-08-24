@@ -28,7 +28,7 @@ margin-top: -1%;
 .left{display: block;
 float: right;
 padding:2% ;
-width: 60vw;
+width: 70vw;
 margin-right:-20% ;}
 .left li{
     color: #000;
@@ -294,64 +294,36 @@ button {
 background-color: #000; 
 color: #FFF;
 font-size: 2.3vh;
+height: 30px;
 }
 .buttonProduct{
     text-align: center;
 }
 
 #productContainer{
-    margin: 2% 3%;
-    width: 100%;
+    margin: 5% 0;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 160px));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 150px));
     gap: 30px;
     row-gap: 70px;
+    align-items: center;
+    justify-content: center;
 }
 .product {
     display: none;
-    padding: 10px;
-    border: 1px solid #ccc;
-    margin: 5%;
+    text-align: center;
 }
 
 .all {
     display: block;
 
 }
-
-#sprit{
-  background-color: lightgray;
-  height: 30vh;
-  width: 19vh;
-  display: block;
-}
-#lorna{
-    background-color: lightgray;
-    height: 30vh;
-    width: 19vh;
-}
 .spritimage{
     width: 20vh;
-    height: 31.5vh;
+    height: 34vh;
 }
-.spritimage2{
-    width: 20vh;
-    height: 31.4vh;
-
-}
-.spritimage3{
-    width: 22vh;
-    height: 31vh;
-
-}
-.spritimage5{
-    width: 17vh;
-    height: 31.2vh;
-
-}
-.spritimage4{
-    width: 20vh;
-    height: 31.6vh;
+.buy{
+    width: 50px;
 
 }
 
@@ -373,8 +345,8 @@ font-size: 2.3vh;
     .hamburger{
         display: flex;
         float: right;
-        margin: 10%;
-        position: relative;
+        margin: 10% 80%;
+        position: fixed;
     }
     .bck{
         margin-top: -19.2%;
@@ -408,11 +380,6 @@ font-size: 2.3vh;
         width: max-content;
         height: 50vw;
     }
-    .zoom-hover{width: 200px;
-        height: 55vw;
-        width: 30vw;
-        flex-shrink: 0;
-    padding: 0;}
     .buttonProduct{
         display: none;
     }

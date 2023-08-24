@@ -108,12 +108,14 @@ margin-right:-20% ;}
     display: block;
 }
 .frontpage{
+    padding: 0 0;
     display: grid;
     grid-template-columns:5fr 1fr;
     grid-template-areas: 'left,right';
     height: min-content;
     border-bottom:  rgba(0, 0, 0, 0.15) 3px;
     box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.15);
+    height: 101vh;
 
 
 }
@@ -133,7 +135,7 @@ padding-left: 5%;
 }
 .image-home{
     width: 20vw;
-    height: 50vw;
+    height: 40vw;
     margin-top: 40%;
 }
 .child{
@@ -197,6 +199,8 @@ margin-top: 2%;
     }
     .frontpage{
        width: 100%;
+       padding: 15% 0;
+       height: 216px;
     }
     .title{
         width: max-content;
