@@ -290,7 +290,7 @@ margin-top: -2px;
 button {
    margin: 2% 0 0 1%;
    border: none;
-   width: 10%;
+   width: 15%;
 background-color: #000; 
 color: #FFF;
 font-size: 2.3vh;
@@ -326,7 +326,11 @@ height: 30px;
     width: 50px;
 
 }
-
+.produkTitle{
+    font-family: 'Roboto';
+    color: #0D2131;
+    font-weight: 600;
+}
 @media only screen and ( max-width:576px)
 {  
     

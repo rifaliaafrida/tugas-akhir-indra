@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const allProductBtn = document.getElementById("allProductBtn");
     const manBtn = document.getElementById("spritBtn");
     const womenBtn = document.getElementById("lornaBtn");
+    const mtsBtn = document.getElementById("mtsBtn");
     const productItems = document.querySelectorAll(".product");
 
     function showProducts(category) {
@@ -34,11 +35,15 @@ document.addEventListener("DOMContentLoaded", function() {
     lornaBtn.addEventListener("click", function() {
         showProducts("lorna");
     });
+    mtsBtn.addEventListener("click", function() {
+        showProducts("mts");
+    });
 });
 document.addEventListener("DOMContentLoaded", function() {
     const allProductBtn = document.getElementById("allItems");
     const manBtn = document.getElementById("spritItem");
     const womenBtn = document.getElementById("lornaItem");
+    const mtsBtn = document.getElementById("mtsItem");
     const productItems = document.querySelectorAll(".product");
 
     function showProducts(category) {
@@ -61,5 +66,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
     lornaItem.addEventListener("click", function() {
         showProducts("lorna");
+    });
+    mtsItem.addEventListener("click", function() {
+        showProducts("mts");
     });
 });
