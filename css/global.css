@@ -1,0 +1,318 @@
+body{
+    margin: 0;
+}
+
+.navbar{
+background: #FFF;
+box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.15);
+width: 100%;
+height: 6vw;
+position: fixed;
+border-bottom:  rgba(0, 0, 0, 0.15) 3px;
+
+}
+.navbar ul li{
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    width: 100px;
+height:100px;
+margin-top: -1%;
+
+}
+.left{display: block;
+float: right;
+padding:2% ;
+width: 70vw;
+margin-right:-20% ;}
+.left li{
+    color: #000;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 181.818% */
+    padding: 0 2%;
+}
+.Home{
+    padding: 5% 0 0 0;}
+.bck{
+    width: 99vw;
+}
+/*
+#backround1{
+    display: flex;
+    width: 30vw;
+    height: 60vw;
+
+}
+.backround{
+    display: flex;
+    margin-top: -10%;
+    margin-bottom: 5%;
+}
+#backround2{
+    width: 37vw;
+    height: 60vw;
+
+
+}
+#backround3{
+    width: 37vw;
+    height: 60vw;
+
+}
+#Title{
+    color: #fff;
+    text-align: center;
+    font-family: 'Noto Sans Kannada', sans-serif;
+font-size: 7vw;
+margin-top: -45%;
+font-style: normal;
+font-weight: 700;
+}
+#slogan{
+    color: #fff;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 3vw;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: -6%;
+}
+*/
+.button{text-align: center;}
+#product{
+width: 150px;
+height: 40px;
+border: none;
+background: #fff;
+color: #000;
+font-family: 'Roboto';
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px; /* 136.364% */
+
+}
+#selengkapnya{
+    color: #fff;
+font-family: 'Roboto';
+font-size: 22px;
+font-style: normal;
+border: none;
+font-weight: 700;
+line-height: 30px; /* 100% */
+background-color: transparent;
+text-align: center;
+margin-left: 2%;
+margin-top: -2px;
+}
+#image1{
+    margin:5%;
+}
+/*NavbarMobile*/
+.mobile{
+    display: none;
+}
+
+.topbackround{
+    width: 9cm;
+    margin-left: -8%;
+    height: 0.8cm;
+    box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.15);
+    border-bottom:  rgba(0, 0, 0, 0.15) 3px;
+
+}
+#MerchCult{
+    font-style: 'Roboto';
+    color: #0D2131;
+    font-weight: 600;
+    margin-left: 6%;
+    font-size: 20px;
+
+}
+.spritbox-backround{
+    width: 7.8cm;
+    margin-left: -7%;
+    margin-top: 2%;
+}
+.menu{
+    display: flex;
+    width: 100%;
+}
+.Homemenu{
+    background-color: #0D2131;
+    width: 3cm;
+    height: 2cm;
+    margin: 5% 0;
+    text-align: center;
+    margin-right: 15%;
+}
+.Homeicon{
+    margin-top: 10%;
+}
+.Beranda{
+    color: #fff;
+    margin-top: -3%;
+}
+.sk{
+    background-color: lightgrey;
+    width: 3cm;
+    height: 2cm;
+    margin: 5% 0;
+    text-align: center;
+}
+.skicon{
+    width: 1cm;
+    margin-top: 8%;
+
+}
+.syarat{
+    margin-top: -3%;
+}
+.AllItems{
+    margin: 5% 0;
+    border: none;
+    width: 100%;
+    height: 1.2cm;
+    background-color: #0D2131;
+    text-align: center;
+}
+#button-produk{
+    color: #FFF;
+}
+
+.Lornashor{
+    border: none;
+    width: 100%;
+    height: 1.2cm;
+    background-color: lightgrey;
+    margin: 0;
+    font-size: 19px;
+    color: #000;
+    font-weight: 700;
+}
+#button-Lornaa{
+        color: #000;
+        font-size: 19px;
+        font-weight: 700;
+    
+}
+.Spritbox{
+    margin: 5% 0;
+    border: none;
+    width: 100%;
+    height: 1.2cm;
+    background-color: #0D2131;
+    text-align: center;
+
+}
+#button-sprit{
+    color: #FFF;
+    font-size: 19px;
+}
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    z-index: 2;
+    margin-top: 30%;
+}
+
+.hamburger-line {
+    width: 100%;
+    height: 3px;
+    background-color: #333;
+    transition: transform 0.3s ease;
+}
+
+.hamburger.active .hamburger-line:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+    margin: 0;
+}
+
+.hamburger.active .hamburger-line:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active .hamburger-line:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    right: -300px; /* Menggeser menu keluar layar */
+    height: 100%;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    transition: right 0.3s ease;
+}
+
+.mobile-menu.active {
+    right: 0; /* Menu akan muncul dari samping */
+}
+
+.mobile-menu ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+}
+
+.mobile-menu li {
+    margin-bottom: 15px;
+}
+
+.mobile-menu a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+}
+@media only screen and ( max-width:576px)
+{  
+    
+    .left{
+        display: none;
+    }
+    .Home{
+        padding: 20vh 0 0 0;
+    }
+    .navbar{
+        height: 12vh;
+    }
+    .mobile{
+        display: block;
+    }
+    .hamburger{
+        display: flex;
+        float: right;
+        margin: 10% 80%;
+        position: fixed;
+    }
+    .bck{
+        margin-top: -19.2%;
+    }
+    .logo{
+        margin-top: -1%;
+        margin-left: -7%;
+        width:80px;
+        height: 80px;
+    }
+}
