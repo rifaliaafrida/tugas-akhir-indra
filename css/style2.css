@@ -59,6 +59,97 @@ width: 14vh;
 margin-left: 3%;
 margin-top: 2%;
 }
+a{
+    color: #FFF;
+}
+.aboutpage{
+    padding: 0 0;
+    display: grid;
+    grid-template-columns:8fr 2fr;
+    grid-template-areas: 'left,right';
+    height: min-content;
+    border-bottom:  rgba(0, 0, 0, 0.15) 3px;
+    box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.15);
+    height: max-content;
+
+
+}
+.lef-page{
+    margin: 15% 7%;
+    
+}
+.image-mz{
+    margin-top: 40%;
+}
+.about{
+    font-size: 4vh;
+    font-family: 'Roboto';
+    color: #0D2131;
+    font-weight: 500;
+    line-height: 5vh;
+}
+.Syarat{
+    padding-top: 1%;
+    padding-left: 5%;
+
+}
+.Headline1{
+    font-size: 8vh;
+    font-family: 'Roboto';
+    color: #0D2131;
+}
+.Penjualan{
+    font-size: 3.5vh;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #0D2131;
+}
+@media only screen and ( max-width:992px)
+{   .frontpage{
+    width: 100%;
+    padding: 10% 0 8% 0;
+    height: 40vw;
+ }
+ .aboutpage{
+    display: block;
+}
+.image-mz{
+    width: 400px;
+    margin-top: -150px;
+    margin-left: 25%;
+}
+.about{
+    font-size: 3vh;
+    text-align: justify;
+    font-family: 'Roboto';
+    color: #0D2131;
+    font-weight: 500;
+    line-height: 5vh;
+}
+}
+@media only screen and ( max-width:768px)
+{   .frontpage{
+    width: 100%;
+    padding: 10% 0 8% 0;
+    height: 310px;
+ }
+ .aboutpage{
+    display: block;
+}
+.image-mz{
+    width: 400px;
+    margin-top: -150px;
+    margin-left: 25%;
+}
+.about{
+    font-size: 3vh;
+    text-align: justify;
+    font-family: 'Roboto';
+    color: #0D2131;
+    font-weight: 500;
+    line-height: 5vh;
+}
+}
 @media only screen and ( max-width:576px)
 {  
     
@@ -89,7 +180,7 @@ margin-top: 2%;
     .frontpage{
        width: 100%;
        padding: 15% 0;
-       height: 216px;
+       height: 226px;
     }
     .title{
         width: max-content;
@@ -103,6 +194,18 @@ margin-top: 2%;
         margin-left: -10%;
         width: 25vw;
         height: 60vw;
+    }
+    .aboutpage{
+        display: block;
+    }
+    .about{
+        text-align: justify;
+        font-size: 3vh;
+    }
+    .image-mz{
+        width: 200px;
+        margin-top: -90px;
+        margin-left: 22%;
     }
 
 }

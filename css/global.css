@@ -285,6 +285,62 @@ margin-top: -2px;
     font-size: 18px;
     display: block;
 }
+@media only screen and ( max-width:992px)
+{  
+    
+    .left{
+       width: 95%;
+       margin-top: 3%;
+    }
+    .left li{
+        padding: 0 1%;
+    }
+    .Home{
+        padding: 20vh 0 0 0;
+    }
+    .navbar{
+        height: 12vh;
+    }
+    .bck{
+        margin-top: -19.2%;
+    }
+    .logo{
+        margin-top: 2%;
+        width:90px;
+        height: 90px;
+    }
+}
+@media only screen and ( max-width:768px)
+{  
+    
+    .left{
+       width: 95%;
+       margin-top: 2%;
+    }
+    .left li{
+        padding: 0 1%;
+    }
+    .Home{
+        padding: 20vh 0 0 0;
+    }
+    .navbar{
+        height: 12vh;
+    }
+    .hamburger{
+        display: none;
+        float: right;
+        margin: 8% 85%;
+        position: fixed;
+    }
+    .bck{
+        margin-top: -19.2%;
+    }
+    .logo{
+        margin-top: 2%;
+        width:80px;
+        height: 80px;
+    }
+}
 @media only screen and ( max-width:576px)
 {  
     

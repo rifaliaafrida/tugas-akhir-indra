@@ -34,13 +34,47 @@ height: 30px;
     height: 34vh;
 }
 .buy{
-    width: 50px;
-
+width: max-content;
 }
 .produkTitle{
     font-family: 'Roboto';
     color: #0D2131;
     font-weight: 600;
+}
+@media only screen and (max-width:992px)
+{  
+   
+    #productContainer{
+        margin: 5% 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 150px));
+        gap: 15vw;
+        row-gap: 70px;
+    }
+    #product{
+        width: 110px;
+        height: 30px;
+        font-size: 15px;
+    }
+    #selengkapnya{
+        font-size: 17px;
+    }
+    .product-button{
+        text-align: left;
+        margin-left: -1%;
+    }
+    .product{margin-left: -4vw;}
+    .card1{
+        width: max-content;
+        height: 50vw;
+    }
+   
+.buttonfilter{
+    width: max-content;
+    padding: 1%;
+    height: 5vw;
+    margin: 2%;
+}
 }
 @media only screen and ( max-width:576px)
 {  
@@ -90,6 +124,8 @@ height: 30px;
         text-align: left;
         margin-left: -1%;
     }
+    .product{margin-left: 0;}
+
     .card1{
         margin: 7%;
         width: max-content;
